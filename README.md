@@ -6,7 +6,7 @@ this is trail project in whci ive implemented the   andoird concepts like
 
 - view binding in fragment
 - anomations betwn fragments 
-- bottom navbar  (controller)
+- bottom navigation view  [navbar controller which controls the change in fragments(tabs like feed,profile,chats,home)  ]
 
 
 
