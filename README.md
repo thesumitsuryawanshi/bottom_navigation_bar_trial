@@ -81,7 +81,9 @@ enjoy this whole code
 
 <
 
-**working code**
+*working code*
+
+
         android:id="@+id/fragmentContainerView"
         android:name="androidx.navigation.fragment.NavHostFragment"
         android:layout_width="0dp"
