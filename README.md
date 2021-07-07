@@ -78,7 +78,10 @@ take reference
 enjoy this whole code  
  & bang on the work.
 -->
-<fragment
+
+<
+
+**working code **
         android:id="@+id/fragmentContainerView"
         android:name="androidx.navigation.fragment.NavHostFragment"
         android:layout_width="0dp"
@@ -96,5 +99,8 @@ enjoy this whole code
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textview"
         app:layout_constraintVertical_bias="0.0"
-        app:navGraph="@navigation/nav_graph" />
+        app:navGraph="@navigation/nav_graph"
+          
+          />
+
 </androidx.constraintlayout.widget.ConstraintLayout>
