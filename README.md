@@ -50,7 +50,7 @@ note :  while checking out the XML code of bottom navigration bar be careful . s
 
                    />
         
-   *****************one of my wrong codes***************************
+   ***************** one of my wrong codes***************************
         
       <fragment
         android:id="@+id/fragmentContainerView"
@@ -71,7 +71,7 @@ note :  while checking out the XML code of bottom navigration bar be careful . s
 
         tools:layout="@layout/fragment_retrofit" />
 
-*****************END***************************
+***************** wrong code END here ***************************
 
 <!-- below is the real code to show fragments on main_activity 
 take reference 
@@ -86,8 +86,6 @@ enjoy this whole code
         android:layout_marginStart="8dp"
         android:layout_marginLeft="8dp"
         android:layout_marginTop="8dp"
-
-
         android:layout_marginEnd="8dp"
         android:layout_marginRight="8dp"
         android:layout_marginBottom="8dp"
@@ -99,5 +97,4 @@ enjoy this whole code
         app:layout_constraintTop_toBottomOf="@+id/textview"
         app:layout_constraintVertical_bias="0.0"
         app:navGraph="@navigation/nav_graph" />
-
 </androidx.constraintlayout.widget.ConstraintLayout>
