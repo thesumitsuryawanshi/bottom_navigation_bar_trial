@@ -19,7 +19,7 @@ this is trail project in whci ive implemented the   andoird concepts like
 
 note :  while checking out the XML code of bottom navigration bar be careful . some diff.  changes are there.
 
-check out below code for quick referrence : 
+##check out below code for quick referrence  
 
 <?xml version="1.0" encoding="utf-8"?>
 <androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
@@ -30,11 +30,14 @@ check out below code for quick referrence :
     tools:context=".MainActivity">
 
     <TextView
-<!--     normal text view code for heading -->
+     normal text view code for heading 
     />
 
 
-    <com.google.android.material.bottomnavigation.BottomNavigationView
+    <
+    *bottom navigation bar*
+    
+    com.google.android.material.bottomnavigation.BottomNavigationView 
         android:id="@+id/bottom_nav_controller"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -45,12 +48,11 @@ check out below code for quick referrence :
         app:layout_constraintVertical_bias="1.0"
         app:menu="@menu/bottom_navbar_controllers_menu"
 
-<!--   bottom navigation bar        -->
-        />
+                   />
         
         *****************one of my wrong codes***************************
         
-<!--    <fragment-->
+<!--    <fragment
 <!--        android:id="@+id/fragmentContainerView"-->
 <!--        android:name="com.example.retrofit__glide_app.glide"-->
 <!--        android:layout_width="349dp"-->
@@ -67,8 +69,7 @@ check out below code for quick referrence :
 <!--        app:layout_constraintTop_toBottomOf="@+id/textview"-->
 <!--        app:layout_constraintVertical_bias="0.826"-->
 
-<!--        tools:layout="@layout/fragment_retrofit" />-->
---> 
+<!--        tools:layout="@layout/fragment_retrofit" />
 *****************END***************************
 
 <!-- below is the real code to show fragments on main_activity 
